@@ -1,0 +1,8 @@
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Domain\bin\Debug\netcoreapp3.1\MusicApp.Domain.deps.json
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Domain\bin\Debug\netcoreapp3.1\MusicApp.Domain.dll
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Domain\bin\Debug\netcoreapp3.1\MusicApp.Domain.pdb
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Domain\obj\Debug\netcoreapp3.1\MusicApp.Domain.AssemblyInfoInputs.cache
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Domain\obj\Debug\netcoreapp3.1\MusicApp.Domain.AssemblyInfo.cs
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Domain\obj\Debug\netcoreapp3.1\MusicApp.Domain.csproj.CoreCompileInputs.cache
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Domain\obj\Debug\netcoreapp3.1\MusicApp.Domain.dll
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Domain\obj\Debug\netcoreapp3.1\MusicApp.Domain.pdb

@@ -1,0 +1,9 @@
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Shared\bin\Debug\netcoreapp3.1\MusicApp.Shared.deps.json
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Shared\bin\Debug\netcoreapp3.1\MusicApp.Shared.dll
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Shared\bin\Debug\netcoreapp3.1\MusicApp.Shared.pdb
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Shared\obj\Debug\netcoreapp3.1\MusicApp.Shared.csprojAssemblyReference.cache
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Shared\obj\Debug\netcoreapp3.1\MusicApp.Shared.AssemblyInfoInputs.cache
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Shared\obj\Debug\netcoreapp3.1\MusicApp.Shared.AssemblyInfo.cs
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Shared\obj\Debug\netcoreapp3.1\MusicApp.Shared.csproj.CoreCompileInputs.cache
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Shared\obj\Debug\netcoreapp3.1\MusicApp.Shared.dll
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Shared\obj\Debug\netcoreapp3.1\MusicApp.Shared.pdb
