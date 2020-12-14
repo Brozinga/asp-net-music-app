@@ -358,7 +358,6 @@ D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\Music
 D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\MusicApp.Application.AssemblyInfoInputs.cache
 D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\MusicApp.Application.AssemblyInfo.cs
 D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\MusicApp.Application.csproj.CoreCompileInputs.cache
-D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\MusicApp.Application.MvcApplicationPartsAssemblyInfo.cs
 D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\MusicApp.Application.MvcApplicationPartsAssemblyInfo.cache
 D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\MusicApp.Application.RazorAssemblyInfo.cache
 D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\MusicApp.Application.RazorAssemblyInfo.cs
@@ -383,3 +382,9 @@ D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\Music
 D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\ref\MusicApp.Application.dll
 D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\MusicApp.Application.pdb
 D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\MusicApp.Application.genruntimeconfig.cache
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\bin\Debug\net5.0\Flunt.dll
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\bin\Debug\net5.0\Flunt.Br.dll
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\bin\Debug\net5.0\MusicApp.Services.dll
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\bin\Debug\net5.0\MusicApp.Shared.dll
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\bin\Debug\net5.0\MusicApp.Services.pdb
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\bin\Debug\net5.0\MusicApp.Shared.pdb

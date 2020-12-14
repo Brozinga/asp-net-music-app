@@ -1,0 +1,12 @@
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Domain\bin\Debug\net5.0\MusicApp.Domain.deps.json
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Domain\bin\Debug\net5.0\MusicApp.Domain.dll
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Domain\bin\Debug\net5.0\ref\MusicApp.Domain.dll
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Domain\bin\Debug\net5.0\MusicApp.Domain.pdb
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Domain\obj\Debug\net5.0\MusicApp.Domain.csprojAssemblyReference.cache
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Domain\obj\Debug\net5.0\MusicApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Domain\obj\Debug\net5.0\MusicApp.Domain.AssemblyInfoInputs.cache
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Domain\obj\Debug\net5.0\MusicApp.Domain.AssemblyInfo.cs
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Domain\obj\Debug\net5.0\MusicApp.Domain.csproj.CoreCompileInputs.cache
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Domain\obj\Debug\net5.0\MusicApp.Domain.dll
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Domain\obj\Debug\net5.0\ref\MusicApp.Domain.dll
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Domain\obj\Debug\net5.0\MusicApp.Domain.pdb

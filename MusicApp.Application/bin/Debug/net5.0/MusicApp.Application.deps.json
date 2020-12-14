@@ -29,7 +29,9 @@
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "5.0.1",
           "Microsoft.Extensions.Hosting": "5.0.0",
           "Microsoft.Extensions.Logging": "5.0.0",
-          "MusicApp.Infrastructure": "1.0.0",
+          "MusicApp.Domain": "1.0.0",
+          "MusicApp.Services": "1.0.0",
+          "MusicApp.Shared": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies.Reference": "5.0.0.0",
@@ -314,6 +316,31 @@
         },
         "compile": {
           "MusicApp.Application.dll": {}
+        }
+      },
+      "Flunt/1.0.4": {
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
+      "Flunt.Br/1.4.0": {
+        "dependencies": {
+          "Flunt": "1.0.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.Br.dll": {
+            "assemblyVersion": "1.4.0.0",
+            "fileVersion": "1.4.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Flunt.Br.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authentication/2.2.0": {
@@ -1172,6 +1199,7 @@
       "System.Threading.Tasks.Extensions/4.5.4": {},
       "MusicApp.Domain/1.0.0": {
         "dependencies": {
+          "Flunt.Br": "1.4.0",
           "Microsoft.Extensions.Identity.Stores": "5.0.1"
         },
         "runtime": {
@@ -1199,6 +1227,34 @@
         },
         "compile": {
           "MusicApp.Infrastructure.dll": {}
+        }
+      },
+      "MusicApp.Services/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity": "2.2.0",
+          "Microsoft.Extensions.Identity.Core": "5.0.1",
+          "MusicApp.Domain": "1.0.0",
+          "MusicApp.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "MusicApp.Services.dll": {}
+        },
+        "compile": {
+          "MusicApp.Services.dll": {}
+        }
+      },
+      "MusicApp.Shared/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity": "2.2.0",
+          "Microsoft.Extensions.Identity.Stores": "5.0.1",
+          "MusicApp.Infrastructure": "1.0.0",
+          "MusicApp.Services": "1.0.0"
+        },
+        "runtime": {
+          "MusicApp.Shared.dll": {}
+        },
+        "compile": {
+          "MusicApp.Shared.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -2877,6 +2933,20 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Flunt/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zsKA3Wol1+UeQBYtXuO56+ua6DBUpD5dcp3iAa86W5WcMLOWBMaDXKdqIrrLNgQUOW/U/svecb4ldgqwnC9XDQ==",
+      "path": "flunt/1.0.4",
+      "hashPath": "flunt.1.0.4.nupkg.sha512"
+    },
+    "Flunt.Br/1.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-piynUU5SzU/rafD2qaSeila0jW2D47wifBD34pLXdV/sCh7IbCPHfDuuwnONdcansLY5P4a0fdelGkL7Vv4jHw==",
+      "path": "flunt.br/1.4.0",
+      "hashPath": "flunt.br.1.4.0.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Authentication/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -3499,6 +3569,16 @@
       "sha512": ""
     },
     "MusicApp.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MusicApp.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MusicApp.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

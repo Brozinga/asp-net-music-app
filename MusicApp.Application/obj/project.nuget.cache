@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "SUvqNrDMoORKwCJgAlKJuw2y+sFTD1LmBrknjBy76zng7qbTa0jNmp2WcDPw2RNPMJnh33GWlk6vtpbYZNxC0w==",
+  "dgSpecHash": "GoLUHmTfe0ctMPBmIcWkdTeTpCPcoSDiqGeS0Eni36F5PN//utu7PSUWhcNNc6F+KZNfisuBUnGWE3guuZGggg==",
   "success": true,
   "projectFilePath": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Application\\MusicApp.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Brozinga\\.nuget\\packages\\flunt\\1.0.4\\flunt.1.0.4.nupkg.sha512",
+    "C:\\Users\\Brozinga\\.nuget\\packages\\flunt.br\\1.4.0\\flunt.br.1.4.0.nupkg.sha512",
     "C:\\Users\\Brozinga\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Brozinga\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Brozinga\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",

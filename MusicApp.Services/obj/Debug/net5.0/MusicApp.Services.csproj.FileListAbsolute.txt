@@ -1,0 +1,17 @@
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Services\obj\Debug\net5.0\MusicApp.Services.csprojAssemblyReference.cache
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Services\obj\Debug\net5.0\MusicApp.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Services\obj\Debug\net5.0\MusicApp.Services.AssemblyInfoInputs.cache
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Services\obj\Debug\net5.0\MusicApp.Services.AssemblyInfo.cs
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Services\obj\Debug\net5.0\MusicApp.Services.csproj.CoreCompileInputs.cache
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Services\bin\Debug\net5.0\MusicApp.Services.deps.json
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Services\bin\Debug\net5.0\MusicApp.Services.dll
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Services\bin\Debug\net5.0\ref\MusicApp.Services.dll
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Services\bin\Debug\net5.0\MusicApp.Services.pdb
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Services\bin\Debug\net5.0\MusicApp.Domain.dll
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Services\bin\Debug\net5.0\MusicApp.Infrastructure.dll
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Services\bin\Debug\net5.0\MusicApp.Infrastructure.pdb
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Services\bin\Debug\net5.0\MusicApp.Domain.pdb
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Services\obj\Debug\net5.0\MusicApp.Services.csproj.CopyComplete
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Services\obj\Debug\net5.0\MusicApp.Services.dll
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Services\obj\Debug\net5.0\ref\MusicApp.Services.dll
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Services\obj\Debug\net5.0\MusicApp.Services.pdb

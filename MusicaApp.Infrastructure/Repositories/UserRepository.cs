@@ -1,32 +1,47 @@
 ﻿using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 using MusicApp.Domain.Interfaces.Repositories;
 using MusicApp.Domain.Models;
-using MusicApp.Infrastructure.Contexts;
 
 namespace MusicApp.Infrastructure.Repositories
 {
-    public class UserRepository : BaseRepository, IUserRepository
+    public class UserRepository : IUserRepository
     {
-        public UserRepository(SqliteContext db) : base(db)
+        private readonly UserManager<User> _userManager;
+
+        public UserRepository(UserManager<User> userManager)
         {
+            _userManager = userManager;
         }
 
-        public async Task<User> Add(User entity)
+        public async Task<bool> Add(User entity)
         {
-            var result = Db.Users.Add(entity);
-            return result.Entity;
+            var result = await _userManager.CreateAsync(entity);
+            return result.Succeeded;
         }
 
-        public async Task<User> Update(User entity)
+        public async Task<bool> Add(User entity, string password)
         {
-            var result = Db.Entry(entity).State = EntityState.Modified;
-            return entity;
+            var result = await _userManager.CreateAsync(entity, password);
+            return result.Succeeded;
         }
 
-        public void Delete(User entity)
+        public async Task<bool> Update(User entity)
         {
-            Db.Users.Remove(entity);
+            var result = await _userManager.UpdateAsync(entity);
+            return result.Succeeded;
+        }
+
+        public async Task<bool> Delete(User entity)
+        {
+            var result = await _userManager.DeleteAsync(entity);
+            return result.Succeeded;
+        }
+
+        public async Task<User> FindUserByEmail(string email)
+        {
+            var user = await _userManager.FindByEmailAsync(email);
+            return user;
         }
     }
 }

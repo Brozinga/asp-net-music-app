@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicApp.Shared", "MusicApp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicApp.Application", "MusicApp.Application\MusicApp.Application.csproj", "{D9E430C0-E04A-49A0-80FE-10BC08601048}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicApp.Services", "MusicApp.Services\MusicApp.Services.csproj", "{EA8000B5-5C60-4693-AE91-C07F85091AAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicApp.Services", "MusicApp.Services\MusicApp.Services.csproj", "{EA8000B5-5C60-4693-AE91-C07F85091AAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicApp.Api", "MusicApp.Api\MusicApp.Api.csproj", "{CC893CC7-F6A2-4437-A634-5DC81F88DF01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{EA8000B5-5C60-4693-AE91-C07F85091AAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA8000B5-5C60-4693-AE91-C07F85091AAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA8000B5-5C60-4693-AE91-C07F85091AAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC893CC7-F6A2-4437-A634-5DC81F88DF01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC893CC7-F6A2-4437-A634-5DC81F88DF01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC893CC7-F6A2-4437-A634-5DC81F88DF01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC893CC7-F6A2-4437-A634-5DC81F88DF01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,12 +1,11 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using MusicApp.Domain.Models;
 using MusicApp.Infrastructure.Contexts;
+using MusicApp.Shared.DI;
 
 namespace music_app
 {
@@ -25,9 +24,8 @@ namespace music_app
             services.AddDbContext<SqliteContext>
                 (x => x.UseSqlite(Configuration.GetConnectionString("SqliteConnection")));
 
-            services.AddIdentity<User, IdentityRole>()
-                .AddEntityFrameworkStores<SqliteContext>()
-                .AddDefaultTokenProviders();
+            IdentityInjection.ConfigureEngine(services);
+            IdentityInjection.ConfigurePassword(services);
 
             services.AddControllersWithViews();
         }

@@ -1,32 +1,33 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
 using MusicApp.Domain.Interfaces.Repositories;
-using MusicApp.Infrastructure.Contexts;
 
 namespace MusicApp.Infrastructure.Repositories
 {
-    public class RoleRepository : BaseRepository, IRoleRepository
+    public class RoleRepository : IRoleRepository
     {
-        public RoleRepository(SqliteContext db) : base(db)
+        private readonly RoleManager<IdentityRole> _roleManager;
+        public RoleRepository(RoleManager<IdentityRole> roleManager)
         {
+            _roleManager = roleManager;
         }
 
-        public async Task<IdentityRole> Add(IdentityRole entity)
+        public async Task<bool> Add(IdentityRole entity)
         {
-            var result = Db.Roles.Add(entity);
-            return result.Entity;
+            var result = await _roleManager.CreateAsync(entity);
+            return result.Succeeded;
         }
 
-        public async Task<IdentityRole> Update(IdentityRole entity)
+        public async Task<bool> Update(IdentityRole entity)
         {
-            Db.Entry(entity).State = EntityState.Modified;
-            return entity;
+            var result = await _roleManager.UpdateAsync(entity);
+            return result.Succeeded;
         }
 
-        public void Delete(IdentityRole entity)
+        public async Task<bool> Delete(IdentityRole entity)
         {
-            Db.Roles.Remove(entity);
+            var result = await _roleManager.DeleteAsync(entity);
+            return result.Succeeded;
         }
     }
 }

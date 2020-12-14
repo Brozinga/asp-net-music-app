@@ -21,8 +21,6 @@ namespace MusicApp.Infrastructure.Mappings
                 .WithMany(x => x.MusicsToUsers)
                 .HasForeignKey(x => x.UserId)
                 .HasConstraintName("Music_To_Users_Users_FK");
-
-
         }
     }
 }

@@ -13,21 +13,22 @@ namespace MusicApp.Infrastructure.Repositories
         {
         }
 
-        public async Task<Music> Add(Music entity)
+        public async Task<bool> Add(Music entity)
         {
            var result = Db.Musics.Add(entity);
-           return result.Entity;
+           return result.State == EntityState.Added;
         }
 
-        public async Task<Music> Update(Music entity)
+        public async Task<bool> Update(Music entity)
         {
-            var result = Db.Musics.Update(entity);
-            return result.Entity;
+            var result = Db.Update(entity);
+            return result.State == EntityState.Modified;
         }
 
-        public void Delete(Music entity)
+        public async Task<bool> Delete(Music entity)
         {
-            Db.Musics.Remove(entity);
+            var result = Db.Musics.Remove(entity);
+            return result.State == EntityState.Deleted;
         }
 
         public async Task<IList<Music>> GetAllWhereUser(string userId)

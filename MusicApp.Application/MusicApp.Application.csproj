@@ -14,7 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MusicaApp.Infrastructure\MusicApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\MusicApp.Domain\MusicApp.Domain.csproj" />
+    <ProjectReference Include="..\MusicApp.Services\MusicApp.Services.csproj" />
+    <ProjectReference Include="..\MusicApp.Shared\MusicApp.Shared.csproj" />
   </ItemGroup>
 
 </Project>

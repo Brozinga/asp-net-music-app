@@ -1,5 +1,4 @@
-﻿using MusicApp.Domain.Interfaces.Repositories;
-using MusicApp.Infrastructure.Contexts;
+﻿using MusicApp.Infrastructure.Contexts;
 
 namespace MusicApp.Infrastructure.Repositories
 {
