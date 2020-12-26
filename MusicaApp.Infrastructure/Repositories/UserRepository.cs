@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using MusicApp.Domain.Interfaces.Repositories;
 using MusicApp.Domain.Models;
@@ -36,6 +37,12 @@ namespace MusicApp.Infrastructure.Repositories
         {
             var result = await _userManager.DeleteAsync(entity);
             return result.Succeeded;
+        }
+
+        public async Task<IList<string>> GetRoleOfUser(User entity)
+        {
+            var result = await _userManager.GetRolesAsync(entity);
+            return result;
         }
 
         public async Task<User> FindUserByEmail(string email)

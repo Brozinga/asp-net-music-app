@@ -1,4 +1,5 @@
 ﻿using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MusicApp.Domain.ViewModels;
 using MusicApp.Services.Handlers;
@@ -18,11 +19,20 @@ namespace MusicApp.Api.Controllers
             _userHandle = userHandle;
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Post([FromBody] UserCreateViewModel viewModel)
+        [HttpPost("/create")]
+        [Authorize(Roles = "admin")]
+        public async Task<IActionResult> CreateUser([FromBody] UserCreateViewModel viewModel)
         {
            var response = await _userHandle.Execute(viewModel);
            return StatusCode(response.Status, response);
+        }
+
+        [HttpPost("/login")]
+        [AllowAnonymous]
+        public async Task<IActionResult> Login([FromBody] LoginViewModel viewModel)
+        {
+            var response = await _userHandle.Execute(viewModel);
+            return StatusCode(response.Status, response);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using MusicApp.Domain.Models;
 
 namespace MusicApp.Domain.Interfaces.Repositories
@@ -7,5 +8,6 @@ namespace MusicApp.Domain.Interfaces.Repositories
     {
         Task<User> FindUserByEmail(string email);
         Task<bool> Add(User entity, string password);
+        Task<IList<string>> GetRoleOfUser(User entity);
     }
 }

@@ -1106,6 +1106,7 @@
       },
       "MusicApp.Services/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.1",
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.Extensions.Identity.Core": "5.0.1",
           "MusicApp.Domain": "1.0.0",

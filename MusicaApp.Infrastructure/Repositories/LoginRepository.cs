@@ -8,16 +8,24 @@ namespace MusicApp.Infrastructure.Repositories
     public class LoginRepository : ILoginRepository
     {
         private readonly SignInManager<User> _signInManager;
+        private readonly UserManager<User> _userManager;
 
-        public LoginRepository(SignInManager<User> signInManager)
+        public LoginRepository(SignInManager<User> signInManager, UserManager<User> userManager)
         {
             _signInManager = signInManager;
+            _userManager = userManager;
         }
 
-        public async Task<SignInResult> Login(string email, string password)
+        public async Task<SignInResult> Login(User user, string password)
         {
-            var result = await _signInManager.PasswordSignInAsync(email, password, false, false);
+            var result = await _signInManager.PasswordSignInAsync(user, password, false, false);
             return result;
+        }
+
+        public async Task<User> FindUserByEmail(string email)
+        {
+            var user = await _userManager.FindByEmailAsync(email);
+            return user;
         }
     }
 }
