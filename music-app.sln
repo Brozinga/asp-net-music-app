@@ -13,7 +13,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicApp.Application", "Mus
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicApp.Services", "MusicApp.Services\MusicApp.Services.csproj", "{EA8000B5-5C60-4693-AE91-C07F85091AAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicApp.Api", "MusicApp.Api\MusicApp.Api.csproj", "{CC893CC7-F6A2-4437-A634-5DC81F88DF01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicApp.Api", "MusicApp.Api\MusicApp.Api.csproj", "{CC893CC7-F6A2-4437-A634-5DC81F88DF01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{F1010A89-63AB-4584-B8AD-FB9E9BFF9646}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

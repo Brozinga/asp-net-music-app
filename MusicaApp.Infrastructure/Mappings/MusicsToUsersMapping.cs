@@ -8,7 +8,7 @@ namespace MusicApp.Infrastructure.Mappings
     {
         public void Configure(EntityTypeBuilder<MusicsToUsers> builder)
         {
-            builder.ToTable("MusicsToTables");
+            builder.ToTable("MusicsToUsers");
 
             builder.HasKey(x => new { x.MusicId, x.UserId });
 

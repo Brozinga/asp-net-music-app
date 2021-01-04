@@ -82,7 +82,7 @@ namespace MusicApp.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "MusicsToTables",
+                name: "MusicsToUsers",
                 columns: table => new
                 {
                     UserId = table.Column<string>(type: "TEXT", nullable: false),

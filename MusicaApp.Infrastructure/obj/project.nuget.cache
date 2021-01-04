@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "koNSCGNHD6g+sC4iN/EmqAPLLYWCL+lVB35bh5UzZz74o2ZTjqvMv3wMtWcjhrX5WNmO4LAFSF97vnYAetgVKg==",
+  "dgSpecHash": "64ZVWRSho+q/IaiCfEhF62kh1AjsTg3cBumjv7OHt6rBRKWTw+UfNuXydq86bFpvqLLX9W8uofNj7V2yTR7hNA==",
   "success": true,
   "projectFilePath": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicaApp.Infrastructure\\MusicApp.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Brozinga\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Brozinga\\.nuget\\packages\\flunt\\1.0.4\\flunt.1.0.4.nupkg.sha512",
     "C:\\Users\\Brozinga\\.nuget\\packages\\flunt.br\\1.4.0\\flunt.br.1.4.0.nupkg.sha512",
     "C:\\Users\\Brozinga\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
@@ -46,7 +47,8 @@
     "C:\\Users\\Brozinga\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\Brozinga\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\Brozinga\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
-    "C:\\Users\\Brozinga\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+    "C:\\Users\\Brozinga\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Brozinga\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

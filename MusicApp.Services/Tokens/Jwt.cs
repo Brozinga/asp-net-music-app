@@ -18,7 +18,8 @@ namespace MusicApp.Services.Tokens
             {
                 Subject = new ClaimsIdentity(new Claim[]
                 {
-                    new Claim(ClaimTypes.Name, user.UserName.ToString()),
+                    new Claim(ClaimTypes.Sid, user.Id.ToString()),
+                    new Claim(ClaimTypes.Email, user.Email.ToString()),
                     new Claim(ClaimTypes.Role, role[0].ToString()),
                 }),
                 Expires = DateTime.UtcNow.AddHours(2),

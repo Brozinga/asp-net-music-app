@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using MusicApp.Domain.Interfaces.Repositories;
@@ -13,29 +14,32 @@ namespace MusicApp.Infrastructure.Repositories
         {
         }
 
-        public async Task<bool> Add(Music entity)
+        public Task<bool> Add(Music entity)
         {
            var result = Db.Musics.Add(entity);
-           return result.State == EntityState.Added;
+           return Task.FromResult(result.State == EntityState.Added);
         }
 
-        public async Task<bool> Update(Music entity)
+        public Task<bool> Update(Music entity)
         {
             var result = Db.Update(entity);
-            return result.State == EntityState.Modified;
+            return Task.FromResult(result.State == EntityState.Modified);
         }
 
-        public async Task<bool> Delete(Music entity)
+        public Task<bool> Delete(Music entity)
         {
             var result = Db.Musics.Remove(entity);
-            return result.State == EntityState.Deleted;
+            return Task.FromResult(result.State == EntityState.Deleted);
         }
 
-        public async Task<IList<Music>> GetAllWhereUser(string userId)
+        public async Task<IList<Music>> GetAllWhereUser(string userId, int skip, int take)
         {
             var result = await Db.Musics
+                .Skip(skip)
+                .Take(take)
                 .Include(x => x.MusicsToUsers)
-                .ThenInclude(x => x.User).ToListAsync();
+                .ThenInclude(x => x.User)
+                .ToListAsync();
 
             return result;
         }

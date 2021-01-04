@@ -16,7 +16,10 @@ namespace MusicApp.Shared.DI
 
         public static void ConfigureHandle(IServiceCollection services)
         {
+            services.AddScoped<MusicHandle>();
             services.AddScoped<UserHandle>();
+            services.AddScoped<LoginHandle>();
         }
+
     }
 }

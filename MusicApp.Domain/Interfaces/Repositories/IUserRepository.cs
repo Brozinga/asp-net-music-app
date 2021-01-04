@@ -9,5 +9,6 @@ namespace MusicApp.Domain.Interfaces.Repositories
         Task<User> FindUserByEmail(string email);
         Task<bool> Add(User entity, string password);
         Task<IList<string>> GetRoleOfUser(User entity);
+        Task<User> GetAllMusicsWhereUser(string userId, int skip, int take);
     }
 }

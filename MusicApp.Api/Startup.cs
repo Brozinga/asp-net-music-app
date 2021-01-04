@@ -1,4 +1,6 @@
 using System.Text;
+using Elastic.Apm.AspNetCore;
+using Elastic.Apm.NetCoreAll;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -8,8 +10,11 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using MusicApp.Api.Mapper;
 using MusicApp.Infrastructure.Contexts;
 using MusicApp.Shared.DI;
+using Newtonsoft.Json;
+
 
 namespace MusicApp.Api
 {
@@ -30,9 +35,14 @@ namespace MusicApp.Api
 
             IdentityInjection.ConfigureEngine(services);
             IdentityInjection.ConfigurePassword(services);
+            IdentityInjection.ConfigurePolicies(services);
 
             ClassInjection.ConfigureRepository(services);
             ClassInjection.ConfigureHandle(services);
+
+            AutoMapperConfig.Configuration(services);
+
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MusicApp.Api", Version = "v1" });
@@ -59,9 +69,6 @@ namespace MusicApp.Api
                 });
             });
 
-
-
-
             var key = Encoding.ASCII.GetBytes(Configuration["Secret"]);
             services.AddAuthentication(x =>
                 {
@@ -82,14 +89,33 @@ namespace MusicApp.Api
                 });
 
 
-            services.AddCors();
-            services.AddControllers();
+            services.AddCors(o => o.AddPolicy("Geral", builder =>
+            {
+                builder.AllowAnyHeader();
+                builder.Build();
+            }));
 
+            services.AddControllers(opt =>
+                {
+
+                    opt.RespectBrowserAcceptHeader = true;
+                    opt.ReturnHttpNotAcceptable = true;
+                    opt.OutputFormatters.Clear();
+                    opt.InputFormatters.Clear();
+                })
+                .AddNewtonsoftJson(opt =>
+                {
+                    opt.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+                });
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            //Uma das formas de Resolver o Cors e os Headers;
+            //app.UseCors(o => o.SetIsOriginAllowed(x => _ = true).AllowAnyHeader());
+
+            app.UseAllElasticApm();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -100,14 +126,10 @@ namespace MusicApp.Api
             app.UseHttpsRedirection();
             app.UseRouting();
 
-            app.UseCors(x => x
-                .AllowAnyOrigin()
-                .AllowAnyMethod()
-                .AllowAnyHeader());
-
             app.UseAuthentication();
             app.UseAuthorization();
 
+            app.UseCors("Geral");
 
             app.UseEndpoints(endpoints =>
             {
