@@ -3038,3 +3038,1178 @@ System.Threading.Tasks.TaskCanceledException: Reached deadline.
    at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
    at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
 2021-01-04 02:57:58.376 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 02:58:08.400 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 02:58:13.375 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 02:58:23.400 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 02:58:28.377 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 02:58:38.404 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 02:58:43.371 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 02:58:53.386 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 02:58:58.372 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 02:59:08.402 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 02:59:13.373 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 02:59:23.400 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 02:59:28.388 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 02:59:38.431 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 02:59:43.378 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 02:59:53.403 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 02:59:58.385 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:00:08.415 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:00:13.375 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:00:23.394 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:00:28.366 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:00:38.393 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:00:43.372 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:00:53.403 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:00:58.375 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:01:08.421 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:01:13.399 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:01:23.468 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:01:28.368 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:01:38.397 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:01:43.370 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:01:53.416 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:01:58.383 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:02:08.413 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:02:13.389 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:02:23.411 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:02:28.386 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:02:38.420 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:02:43.379 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:02:53.407 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:02:58.375 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:03:08.397 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:03:13.372 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:03:23.406 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:03:28.380 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:03:38.407 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:03:43.394 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:03:53.423 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:03:58.370 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:04:08.388 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:04:13.372 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:04:23.406 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:04:28.388 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:04:38.404 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:04:43.382 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:04:53.407 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:04:58.379 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:05:08.403 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:05:13.379 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:05:23.411 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:05:28.369 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:05:38.398 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:05:43.369 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:05:53.388 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:05:58.372 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:06:08.410 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:06:13.378 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:06:23.399 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:06:28.380 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:06:38.396 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:06:43.391 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:06:53.420 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:06:58.373 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:07:08.400 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:07:13.373 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:07:23.406 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:07:28.364 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:07:38.391 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:07:43.371 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:07:53.395 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:07:58.363 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:08:08.382 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:08:13.377 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:08:23.402 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:08:28.386 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:08:38.413 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:08:43.379 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:08:53.402 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:08:58.368 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:09:08.391 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:09:13.376 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:09:23.402 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:09:28.370 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:09:38.388 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:09:43.393 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:09:53.420 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:09:58.376 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:10:08.407 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:10:13.396 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:10:23.437 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:10:28.367 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:10:38.393 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:10:43.377 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:10:53.403 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:10:58.378 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:11:08.405 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:11:13.378 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:11:23.403 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:11:28.377 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:11:38.396 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:11:43.367 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:11:53.384 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:11:58.377 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:12:08.390 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:12:13.370 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:12:23.395 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:12:28.366 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:12:38.389 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:12:43.375 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:12:53.415 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:12:58.389 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:13:08.431 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:13:13.372 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:13:23.403 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:13:28.374 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:13:38.400 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:13:43.379 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:13:53.416 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:13:58.377 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:14:08.397 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:14:13.385 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:14:23.417 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:14:28.372 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:14:38.405 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:14:43.367 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:14:53.393 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:14:58.365 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:15:08.382 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:15:13.374 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:15:23.401 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:15:28.364 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:15:38.391 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:15:43.376 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:15:53.416 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:15:58.396 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:16:08.619 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:16:13.375 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:16:23.400 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:16:28.385 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:16:38.411 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:16:43.375 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:16:53.392 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:16:58.380 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:17:08.406 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:17:13.374 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:17:23.391 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:17:28.380 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:17:38.399 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:17:43.376 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:17:53.397 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:17:58.381 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:18:08.401 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:18:13.382 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:18:23.400 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:18:28.371 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:18:38.396 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:18:43.388 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:18:53.416 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:18:58.380 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:19:08.397 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:19:13.379 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:19:23.393 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:19:28.377 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:19:38.393 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:19:43.376 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:19:53.402 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:19:58.388 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:20:08.412 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:20:13.379 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:20:23.402 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:20:28.372 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:20:38.394 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:20:43.371 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:20:53.398 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:20:58.369 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:21:08.382 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:21:13.376 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:21:23.407 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:21:28.378 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:21:38.412 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:21:43.382 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:21:53.403 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:21:58.381 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:22:08.411 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:22:13.368 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:22:23.392 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:22:28.389 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:22:38.406 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:22:43.377 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:22:53.393 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:22:58.388 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:23:08.415 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:23:13.373 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:23:23.401 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:23:28.372 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:23:38.397 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:23:43.362 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:23:53.383 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:23:58.369 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:24:08.393 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:24:13.371 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:24:23.393 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:24:28.372 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:24:38.395 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:24:43.377 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:24:53.389 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:24:58.369 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:25:08.393 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:25:13.368 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:25:23.388 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:25:28.369 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:25:38.389 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:25:43.380 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:25:53.400 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:25:58.375 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:26:08.401 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:26:13.371 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:26:23.395 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:26:28.381 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:26:38.406 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:26:43.373 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:26:53.388 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:26:58.371 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:27:08.391 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:27:13.378 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:27:23.409 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:27:28.374 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:27:38.403 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:27:43.376 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:27:53.403 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:27:58.375 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:28:08.392 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:28:13.375 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:28:23.400 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:28:28.369 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:28:38.384 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:28:43.376 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:28:53.396 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:28:58.378 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:29:08.393 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:29:13.374 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:29:23.389 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:29:28.384 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:29:38.417 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:29:43.378 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:29:53.414 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:29:58.373 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:30:08.411 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:30:13.384 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:30:23.413 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:30:28.366 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:30:38.382 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:30:43.379 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:30:53.415 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:30:58.382 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:31:08.414 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:31:13.375 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:31:23.390 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:31:28.369 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:31:38.398 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:31:43.374 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:31:53.399 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:31:58.382 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:32:08.402 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:32:13.373 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:32:23.389 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:32:28.369 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:32:38.407 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:32:43.369 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:32:53.383 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:32:58.378 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:33:08.399 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:33:13.373 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:33:23.394 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:33:28.370 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:33:38.397 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:33:43.383 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:33:53.402 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:33:58.375 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:34:08.399 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:34:13.365 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:34:23.378 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:34:28.370 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:34:38.391 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:34:43.386 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:34:53.414 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:34:58.389 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:35:08.419 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:35:13.374 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:35:23.399 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:35:28.373 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:35:38.394 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:35:43.391 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:35:53.441 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:35:58.380 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:36:08.437 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:36:13.382 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:36:23.411 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:36:28.369 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:36:38.391 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:36:43.374 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:36:53.390 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:36:58.378 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:37:08.421 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:37:13.373 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:37:23.404 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:37:28.361 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:37:38.383 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:37:43.375 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:37:53.398 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:37:58.380 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:38:08.405 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:38:13.372 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:38:23.395 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:38:28.371 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:38:38.382 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:38:43.372 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:38:53.391 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:38:58.374 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:39:08.409 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:39:13.389 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:39:23.447 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:39:28.396 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:39:38.432 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:39:43.377 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:39:53.398 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:39:58.376 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:40:08.393 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:40:13.367 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:40:23.395 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:40:28.362 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:40:38.395 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:40:43.376 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:40:53.396 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:40:58.398 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:41:08.454 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:41:13.373 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:41:23.386 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:41:28.372 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:41:38.394 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:41:43.413 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:41:53.446 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:41:58.362 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:42:08.385 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:42:13.397 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:42:23.638 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:42:28.370 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:42:38.392 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:42:43.382 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:42:53.401 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:42:58.380 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:43:08.413 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:43:13.371 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:43:23.384 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:43:28.377 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:43:38.399 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:43:43.382 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:43:53.408 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:43:58.380 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:44:08.398 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:44:13.370 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:44:23.397 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:44:28.373 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:44:38.394 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:44:43.367 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:44:53.386 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:44:58.372 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:45:08.397 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:45:13.382 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:45:23.403 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:45:28.377 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:45:38.404 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:45:43.365 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:45:53.382 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:45:58.378 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:46:08.405 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:46:13.369 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:46:23.387 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:46:28.365 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:46:38.384 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2021-01-04 03:46:43.377 -03:00 [Music_App] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2021-01-04 03:46:53.406 -03:00 [Music_App] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()

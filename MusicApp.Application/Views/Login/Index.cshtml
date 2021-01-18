@@ -1,0 +1,24 @@
+﻿@model dynamic
+
+@{
+    ViewBag.Title = "Login | Music App";
+    Layout = "_NoHeader";
+}
+
+<div class="login">
+    <h2>Login</h2>
+
+    @using (Html.BeginForm("Logar", "Login", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" placeholder="Digite seu email" id="Email" name="Email">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Senha:</label>
+            <input type="password" class="form-control" placeholder="Digite sua senha" id="Password" name="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Entrar</button>
+    }
+</div>

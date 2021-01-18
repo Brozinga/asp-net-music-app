@@ -382,8 +382,6 @@ D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\scope
 D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\MusicApp.Application.TagHelpers.input.cache
 D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\MusicApp.Application.TagHelpers.output.cache
 D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\MusicApp.Application.RazorCoreGenerate.cache
-D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -397,3 +395,6 @@ D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\Music
 D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\ref\MusicApp.Application.dll
 D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\MusicApp.Application.pdb
 D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\MusicApp.Application.genruntimeconfig.cache
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\Razor\Views\Login\Index.cshtml.g.cs
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\obj\Debug\net5.0\Razor\Views\Shared\_NoHeader.cshtml.g.cs
+D:\APRENDENDO\projeto-full\music-app\MusicApp.Application\bin\Debug\net5.0\Newtonsoft.Json.dll

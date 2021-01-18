@@ -28,9 +28,24 @@ a {
 -------------------------------------------------- */
 html {
   font-size: 14px;
+    height: 100%;
 }
+body, .login, main[role="main"] {
+    height: 100%;
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login > form {
+    min-width: 300px;
+}
+
 @media (min-width: 768px) {
-  html {
+        html {
     font-size: 16px;
   }
 }

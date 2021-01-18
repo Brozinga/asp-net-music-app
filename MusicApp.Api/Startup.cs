@@ -1,5 +1,4 @@
 using System.Text;
-using Elastic.Apm.AspNetCore;
 using Elastic.Apm.NetCoreAll;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
@@ -92,6 +91,7 @@ namespace MusicApp.Api
             services.AddCors(o => o.AddPolicy("Geral", builder =>
             {
                 builder.AllowAnyHeader();
+                builder.AllowAnyOrigin();
                 builder.Build();
             }));
 

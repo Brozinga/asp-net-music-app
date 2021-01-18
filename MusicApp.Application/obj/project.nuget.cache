@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "m/h5tir6Kg0xIjR7G+RKkXGU/fzwFclD1FdXN8aOwEvSczLo8zbt3eZ5iKQ9phdcLjlJFc7y1PLtrCayaHfF7w==",
+  "dgSpecHash": "BH3hHnI4EDKfAjt39RBkrdpwtHaZlVka6TA6hohZhdjJj4dOWdl/vaHzmnxFcYYfCRGZySc/Q6zB8WVehmv3WQ==",
   "success": true,
   "projectFilePath": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Application\\MusicApp.Application.csproj",
   "expectedPackageFiles": [
@@ -81,6 +81,7 @@
     "C:\\Users\\Brozinga\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\Brozinga\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Brozinga\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\Brozinga\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\Brozinga\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.4\\sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\Brozinga\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
     "C:\\Users\\Brozinga\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
