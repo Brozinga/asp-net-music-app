@@ -1,5 +1,6 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 using MusicApp.Domain.Interfaces.Repositories;
 using MusicApp.Domain.ViewModels;
 using MusicApp.Domain.HttpResponses;
@@ -15,16 +16,30 @@ namespace MusicApp.Services.Handlers
         private readonly IUserRepository userRepository;
         private readonly ILoginRepository loginRepository;
         private readonly IConfiguration _config;
+        // Log da microsoft funciona também com o Graylog.
+        // using Microsoft.Extensions.Logging;
+        
+        //E também posso usar o log do Serilog com o Graylog
+        //using Serilog;
+        //using Serilog.Extensions.Logging; 
+        // Onde a Interface Logger funciona nas duas.
+        private readonly ILogger logger;
 
-        public LoginHandle(ILoginRepository loginRepository, IConfiguration config, IUserRepository userRepository)
+        public LoginHandle(ILoginRepository loginRepository, IConfiguration config, IUserRepository userRepository, ILogger<LoginHandle> logger)
         {
             this.loginRepository = loginRepository;
             _config = config;
             this.userRepository = userRepository;
+            this.logger = logger;
         }
 
         public async Task<BasicResponse<BasicObject>> Execute(LoginViewModel viewModel)
         {
+            // Log da microsoft funciona também com o serilog.
+            logger.LogDebug("Executando Handler de Login!");
+            
+            //Usando o Serilog.
+            //logger.Debug("Executando Handler de Login!");
             viewModel.Validate();
 
             if (viewModel.Invalid)

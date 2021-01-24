@@ -114,7 +114,8 @@ namespace MusicApp.Api
             //Uma das formas de Resolver o Cors e os Headers;
             //app.UseCors(o => o.SetIsOriginAllowed(x => _ = true).AllowAnyHeader());
 
-            app.UseAllElasticApm();
+            //------ Configuração do Elk Stack para saber como as coisas funcionam.
+            //app.UseAllElasticApm();
 
             if (env.IsDevelopment())
             {

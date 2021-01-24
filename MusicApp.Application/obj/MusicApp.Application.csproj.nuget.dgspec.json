@@ -343,6 +343,14 @@
             "Microsoft.Extensions.Identity.Core": {
               "target": "Package",
               "version": "[5.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.0.1, )"
             }
           },
           "imports": [
