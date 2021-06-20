@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LNbI80wKxteYx15BiyuXNplCYLScPiCthSIfIQjFozou9NMceyU0cgXBVzll8XIuXYOh7/UnZblSQUgwBjoX2A==",
+  "dgSpecHash": "9N2jzlkewnnhPZr5nYEJKd8Mw7fWtn/tkyPwRNbk0RMW2722V0NEDIGLCuJUperE5xk1ihIElnLQqtUEUgAGaQ==",
   "success": true,
-  "projectFilePath": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Api\\MusicApp.Api.csproj",
+  "projectFilePath": "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Api\\MusicApp.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Brozinga\\.nuget\\packages\\aspectcore.extensions.reflection\\1.2.0\\aspectcore.extensions.reflection.1.2.0.nupkg.sha512",
     "C:\\Users\\Brozinga\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",

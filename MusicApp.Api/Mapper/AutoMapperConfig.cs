@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using System.Linq;
+using AutoMapper;
 using Microsoft.Extensions.DependencyInjection;
 using MusicApp.Domain.Models;
 using MusicApp.Domain.ViewModels;
@@ -13,7 +14,7 @@ namespace MusicApp.Api.Mapper
             var mapperConfig = new MapperConfiguration(config =>
             {
                 config.CreateMap<User, UserBasicResponse>()
-                    .ForMember(entity => entity.Musics, dto => dto.MapFrom(x => x.MusicsToUsers))
+                    .ForMember(entity => entity.Musics, dto => dto.MapFrom(x => x.MusicsToUsers.Select(x => x.Music)))
                     .ReverseMap();
                
                 config.CreateMap<Music, MusicResponse>().ReverseMap();

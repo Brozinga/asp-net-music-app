@@ -9396,11 +9396,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Api\\MusicApp.Api.csproj",
+      "projectUniqueName": "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Api\\MusicApp.Api.csproj",
       "projectName": "MusicApp.Api",
-      "projectPath": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Api\\MusicApp.Api.csproj",
+      "projectPath": "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Api\\MusicApp.Api.csproj",
       "packagesPath": "C:\\Users\\Brozinga\\.nuget\\packages\\",
-      "outputPath": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Api\\obj\\",
+      "outputPath": "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -9421,11 +9421,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Services\\MusicApp.Services.csproj": {
-              "projectPath": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Services\\MusicApp.Services.csproj"
+            "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Services\\MusicApp.Services.csproj": {
+              "projectPath": "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Services\\MusicApp.Services.csproj"
             },
-            "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Shared\\MusicApp.Shared.csproj": {
-              "projectPath": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Shared\\MusicApp.Shared.csproj"
+            "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Shared\\MusicApp.Shared.csproj": {
+              "projectPath": "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Shared\\MusicApp.Shared.csproj"
             }
           }
         }
@@ -9521,7 +9521,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

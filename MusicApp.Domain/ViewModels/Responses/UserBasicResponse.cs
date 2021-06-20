@@ -9,6 +9,6 @@ namespace MusicApp.Domain.ViewModels.Responses
         public string Email { get; set; }
 
         public long MusicsTotal { get; set; }
-        public IList<MusicManyResponse> Musics { get; set; }
+        public IList<MusicResponse> Musics { get; set; }
     }
 }

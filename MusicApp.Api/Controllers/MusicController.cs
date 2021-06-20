@@ -17,7 +17,7 @@ namespace MusicApp.Api.Controllers
     public class MusicController : ControllerBase
     {
 
-        private MusicHandle _musicHandle;
+        private readonly MusicHandle _musicHandle;
 
         public MusicController(MusicHandle musicHandle)
         {

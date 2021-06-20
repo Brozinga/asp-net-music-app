@@ -20,18 +20,18 @@ namespace MusicApp.Services.Handlers
         IHandleBase<AddRangeMusicViewModel, BasicResponse<BasicObject>>,
         IHandleBase<GetAllMusicsViewModel, BasicResponse<BasicObject>>
     {
-        private BasicObject objResponse = null;
+        private BasicObject _objResponse = null;
         private readonly IMusicRepository _musicRepository;
         private readonly IUserRepository _userRepository;
-        private readonly SqliteContext sqliteContext;
-        private readonly IMapper mapper;
+        private readonly SqliteContext _sqliteContext;
+        private readonly IMapper _mapper;
 
         public MusicHandle(IMusicRepository musicRepository, SqliteContext sqliteContext, IUserRepository userRepository, IMapper mapper)
         {
             _musicRepository = musicRepository;
             _userRepository = userRepository;
-            this.mapper = mapper;
-            this.sqliteContext = sqliteContext;
+            this._mapper = mapper;
+            this._sqliteContext = sqliteContext;
         }
 
         public async Task<BasicResponse<BasicObject>> Execute(AddMusicViewModel viewModel)
@@ -42,8 +42,8 @@ namespace MusicApp.Services.Handlers
             {
                 if (viewModel.Invalid)
                 {
-                    objResponse = new BasicObject("Ops! Dados enviados são incorretos", viewModel.Notifications);
-                    return new BasicResponse<BasicObject>(objResponse, 404);
+                    _objResponse = new BasicObject("Ops! Dados enviados são incorretos", viewModel.Notifications);
+                    return new BasicResponse<BasicObject>(_objResponse, 404);
                 }
 
                 var musica = new Music()
@@ -69,21 +69,21 @@ namespace MusicApp.Services.Handlers
                 await _musicRepository.Add(musica);
 
 
-                var IsSaved = await sqliteContext.SaveChangesAsync();
+                var IsSaved = await _sqliteContext.SaveChangesAsync();
 
                 if (IsSaved > 0)
                 {
-                    objResponse = new BasicObject("Musica Adicionada", null);
-                    return new BasicResponse<BasicObject>(objResponse, 301);
+                    _objResponse = new BasicObject("Musica Adicionada", null);
+                    return new BasicResponse<BasicObject>(_objResponse, 301);
                 }
 
-                objResponse = new BasicObject("Ops Ocorreu um erro ao tentar adicionar a musica", null);
-                return new BasicResponse<BasicObject>(objResponse, 500);
+                _objResponse = new BasicObject("Ops Ocorreu um erro ao tentar adicionar a musica", null);
+                return new BasicResponse<BasicObject>(_objResponse, 500);
             }
             catch (Exception e)
             {
-                objResponse = new BasicObject("Erro interno", e.Message);
-                return new BasicResponse<BasicObject>(objResponse, 500);
+                _objResponse = new BasicObject("Erro interno", e.Message);
+                return new BasicResponse<BasicObject>(_objResponse, 500);
             }
         }
 
@@ -95,12 +95,12 @@ namespace MusicApp.Services.Handlers
             {
                 if (viewModel.Invalid)
                 {
-                    objResponse = new BasicObject("Ops! Dados enviados são incorretos", viewModel.Notifications);
-                    return new BasicResponse<BasicObject>(objResponse, 404);
+                    _objResponse = new BasicObject("Ops! Dados enviados são incorretos", viewModel.Notifications);
+                    return new BasicResponse<BasicObject>(_objResponse, 404);
                 }
 
 
-                var musicas = mapper.Map<IList<Music>>(viewModel.Musics);
+                var musicas = _mapper.Map<IList<Music>>(viewModel.Musics);
 
                 var identity = (ClaimsIdentity)viewModel.Identity;
                 IEnumerable<Claim> claim = identity.Claims;
@@ -122,21 +122,21 @@ namespace MusicApp.Services.Handlers
                 _musicRepository.AddRange(musicas);
 
 
-                var IsSaved = await sqliteContext.SaveChangesAsync();
+                var IsSaved = await _sqliteContext.SaveChangesAsync();
 
                 if (IsSaved > 0)
                 {
-                    objResponse = new BasicObject("Musicas Adicionadas", null);
-                    return new BasicResponse<BasicObject>(objResponse, 301);
+                    _objResponse = new BasicObject("Musicas Adicionadas", null);
+                    return new BasicResponse<BasicObject>(_objResponse, 301);
                 }
 
-                objResponse = new BasicObject("Ops Ocorreu um erro ao tentar adicionar a musica", null);
-                return new BasicResponse<BasicObject>(objResponse, 500);
+                _objResponse = new BasicObject("Ops Ocorreu um erro ao tentar adicionar a musica", null);
+                return new BasicResponse<BasicObject>(_objResponse, 500);
             }
             catch (Exception e)
             {
-                objResponse = new BasicObject("Erro interno", e.Message);
-                return new BasicResponse<BasicObject>(objResponse, 500);
+                _objResponse = new BasicObject("Erro interno", e.Message);
+                return new BasicResponse<BasicObject>(_objResponse, 500);
             }
         }
 
@@ -153,20 +153,20 @@ namespace MusicApp.Services.Handlers
 
                 var musics = await _userRepository.GetAllMusicsWhereUser(UserId?.Value, viewModel.Skip, viewModel.Take);
 
-                var response = mapper.Map<UserBasicResponse>(musics);
+                var response = _mapper.Map<UserBasicResponse>(musics);
 
                 response.MusicsTotal = musics.MusicsToUsers.Count;
                 response.Musics = response.Musics.Skip(viewModel.Skip).Take(viewModel.Take).ToList();
 
 
-                objResponse = new BasicObject("Lista de musicas", response);
+                _objResponse = new BasicObject("Lista de musicas", response);
 
-                return new BasicResponse<BasicObject>(objResponse);
+                return new BasicResponse<BasicObject>(_objResponse);
             }
             catch (Exception e)
             {
-                objResponse = new BasicObject("Erro interno", e.Message);
-                return new BasicResponse<BasicObject>(objResponse, 500);
+                _objResponse = new BasicObject("Erro interno", e.Message);
+                return new BasicResponse<BasicObject>(_objResponse, 500);
             }
 
         }

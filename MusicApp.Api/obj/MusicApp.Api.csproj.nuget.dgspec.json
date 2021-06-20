@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Api\\MusicApp.Api.csproj": {}
+    "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Api\\MusicApp.Api.csproj": {}
   },
   "projects": {
-    "D:\\APRENDENDO\\projeto-full\\music-app\\MusicaApp.Infrastructure\\MusicApp.Infrastructure.csproj": {
+    "D:\\APRENDENDO\\asp-net-music-app\\MusicaApp.Infrastructure\\MusicApp.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicaApp.Infrastructure\\MusicApp.Infrastructure.csproj",
+        "projectUniqueName": "D:\\APRENDENDO\\asp-net-music-app\\MusicaApp.Infrastructure\\MusicApp.Infrastructure.csproj",
         "projectName": "MusicApp.Infrastructure",
-        "projectPath": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicaApp.Infrastructure\\MusicApp.Infrastructure.csproj",
+        "projectPath": "D:\\APRENDENDO\\asp-net-music-app\\MusicaApp.Infrastructure\\MusicApp.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Brozinga\\.nuget\\packages\\",
-        "outputPath": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicaApp.Infrastructure\\obj\\",
+        "outputPath": "D:\\APRENDENDO\\asp-net-music-app\\MusicaApp.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Domain\\MusicApp.Domain.csproj": {
-                "projectPath": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Domain\\MusicApp.Domain.csproj"
+              "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Domain\\MusicApp.Domain.csproj": {
+                "projectPath": "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Domain\\MusicApp.Domain.csproj"
               }
             }
           }
@@ -112,18 +112,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Api\\MusicApp.Api.csproj": {
+    "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Api\\MusicApp.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Api\\MusicApp.Api.csproj",
+        "projectUniqueName": "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Api\\MusicApp.Api.csproj",
         "projectName": "MusicApp.Api",
-        "projectPath": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Api\\MusicApp.Api.csproj",
+        "projectPath": "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Api\\MusicApp.Api.csproj",
         "packagesPath": "C:\\Users\\Brozinga\\.nuget\\packages\\",
-        "outputPath": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Api\\obj\\",
+        "outputPath": "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -144,11 +144,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Services\\MusicApp.Services.csproj": {
-                "projectPath": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Services\\MusicApp.Services.csproj"
+              "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Services\\MusicApp.Services.csproj": {
+                "projectPath": "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Services\\MusicApp.Services.csproj"
               },
-              "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Shared\\MusicApp.Shared.csproj": {
-                "projectPath": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Shared\\MusicApp.Shared.csproj"
+              "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Shared\\MusicApp.Shared.csproj": {
+                "projectPath": "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Shared\\MusicApp.Shared.csproj"
               }
             }
           }
@@ -244,18 +244,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Domain\\MusicApp.Domain.csproj": {
+    "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Domain\\MusicApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Domain\\MusicApp.Domain.csproj",
+        "projectUniqueName": "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Domain\\MusicApp.Domain.csproj",
         "projectName": "MusicApp.Domain",
-        "projectPath": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Domain\\MusicApp.Domain.csproj",
+        "projectPath": "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Domain\\MusicApp.Domain.csproj",
         "packagesPath": "C:\\Users\\Brozinga\\.nuget\\packages\\",
-        "outputPath": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Domain\\obj\\",
+        "outputPath": "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -316,18 +316,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Services\\MusicApp.Services.csproj": {
+    "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Services\\MusicApp.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Services\\MusicApp.Services.csproj",
+        "projectUniqueName": "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Services\\MusicApp.Services.csproj",
         "projectName": "MusicApp.Services",
-        "projectPath": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Services\\MusicApp.Services.csproj",
+        "projectPath": "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Services\\MusicApp.Services.csproj",
         "packagesPath": "C:\\Users\\Brozinga\\.nuget\\packages\\",
-        "outputPath": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Services\\obj\\",
+        "outputPath": "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -348,11 +348,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\APRENDENDO\\projeto-full\\music-app\\MusicaApp.Infrastructure\\MusicApp.Infrastructure.csproj": {
-                "projectPath": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicaApp.Infrastructure\\MusicApp.Infrastructure.csproj"
+              "D:\\APRENDENDO\\asp-net-music-app\\MusicaApp.Infrastructure\\MusicApp.Infrastructure.csproj": {
+                "projectPath": "D:\\APRENDENDO\\asp-net-music-app\\MusicaApp.Infrastructure\\MusicApp.Infrastructure.csproj"
               },
-              "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Domain\\MusicApp.Domain.csproj": {
-                "projectPath": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Domain\\MusicApp.Domain.csproj"
+              "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Domain\\MusicApp.Domain.csproj": {
+                "projectPath": "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Domain\\MusicApp.Domain.csproj"
               }
             }
           }
@@ -410,18 +410,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Shared\\MusicApp.Shared.csproj": {
+    "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Shared\\MusicApp.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Shared\\MusicApp.Shared.csproj",
+        "projectUniqueName": "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Shared\\MusicApp.Shared.csproj",
         "projectName": "MusicApp.Shared",
-        "projectPath": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Shared\\MusicApp.Shared.csproj",
+        "projectPath": "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Shared\\MusicApp.Shared.csproj",
         "packagesPath": "C:\\Users\\Brozinga\\.nuget\\packages\\",
-        "outputPath": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Shared\\obj\\",
+        "outputPath": "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -442,11 +442,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\APRENDENDO\\projeto-full\\music-app\\MusicaApp.Infrastructure\\MusicApp.Infrastructure.csproj": {
-                "projectPath": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicaApp.Infrastructure\\MusicApp.Infrastructure.csproj"
+              "D:\\APRENDENDO\\asp-net-music-app\\MusicaApp.Infrastructure\\MusicApp.Infrastructure.csproj": {
+                "projectPath": "D:\\APRENDENDO\\asp-net-music-app\\MusicaApp.Infrastructure\\MusicApp.Infrastructure.csproj"
               },
-              "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Services\\MusicApp.Services.csproj": {
-                "projectPath": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Services\\MusicApp.Services.csproj"
+              "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Services\\MusicApp.Services.csproj": {
+                "projectPath": "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Services\\MusicApp.Services.csproj"
               }
             }
           }
@@ -496,7 +496,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

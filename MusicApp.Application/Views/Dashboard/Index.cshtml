@@ -1,0 +1,42 @@
+﻿@model music_app.Models.ViewModels.MusicsResponseViewModel
+@{
+    ViewData["Title"] = "Dashboard | Music App";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Dashboard</h1>
+
+<table id="table_id" class="table table-bordered table-sm">
+    <thead>
+    <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Nome da Musica</th>
+        <th scope="col">Artista</th>
+    </tr>
+    </thead>
+    <tbody>
+    @{
+        foreach (var music in Model.Response.Message.Musics)
+        {
+            <tr>
+                <th scope="row">@music.Id</th>
+                <td>@music.Name</td>
+                <td>@music.Artist</td>
+            </tr>
+        }
+    }
+    </tbody>
+</table>
+
+@section Scripts
+{
+    <script>
+        $(document).ready(function() {
+            $('#table_id').DataTable({
+                "language": {
+                    "url": "//cdn.datatables.net/plug-ins/1.10.25/i18n/Portuguese-Brasil.json"
+                }
+            });
+        });
+    </script>
+}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v/amLbWPdZ9OfgWMmJOpZTl1TNN7NEZ98pfj6EbnUVwVf7ZX/gwvukqkBY+tjcmXwKSwIZFT7mFoIppYMUcSNg==",
+  "dgSpecHash": "3Ksukj4jvlbhwI1heTw6VjzbiuUmEEnQxqjjbru3DEhmhyiSlIIzIxiDsNkBywqVvqp1me2KTa2ITyvyhe3nsg==",
   "success": true,
-  "projectFilePath": "D:\\APRENDENDO\\projeto-full\\music-app\\MusicApp.Shared\\MusicApp.Shared.csproj",
+  "projectFilePath": "D:\\APRENDENDO\\asp-net-music-app\\MusicApp.Shared\\MusicApp.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Brozinga\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Brozinga\\.nuget\\packages\\flunt\\1.0.4\\flunt.1.0.4.nupkg.sha512",

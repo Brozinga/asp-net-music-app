@@ -8,9 +8,7 @@
 <div class="login">
     <h2>Login</h2>
 
-    @using (Html.BeginForm("Logar", "Login", FormMethod.Post))
-    {
-        @Html.AntiForgeryToken()
+    <form method="post" asp-controller="Autenticacao" asp-action="Logar" asp-antiforgery="true">
         <div class="form-group">
             <label for="email">Email:</label>
             <input type="email" class="form-control" placeholder="Digite seu email" id="Email" name="Email">
@@ -20,5 +18,6 @@
             <input type="password" class="form-control" placeholder="Digite sua senha" id="Password" name="Password">
         </div>
         <button type="submit" class="btn btn-primary">Entrar</button>
-    }
+    </form>
+    
 </div>
