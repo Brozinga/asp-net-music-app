@@ -21,15 +21,17 @@ namespace music_app.Data
         {
             URL = _configuration["Api:Url"];
 
-            var client = new HttpClient(new HttpClientHandler());
+            HttpClient client = null;
 
             if(!string.IsNullOrEmpty(token)) {
                 client = new HttpClient(new HttpClientHandler())
                 {
                     DefaultRequestHeaders = { Authorization = new AuthenticationHeaderValue("Bearer", token) }
                 };
+                return client;
             }
 
+            client = new HttpClient(new HttpClientHandler());
             return client;
         }
 
